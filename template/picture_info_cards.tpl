@@ -180,7 +180,7 @@
           </div>
         </div>
       </div>
-{if $display_info.tags and isset($related_tags)}
+{if $display_info.tags and isset($related_tags) and $related_tags}
       <div id="card-tags" class="card mb-2">
         <div class="card-body">
           <h5 class="card-title">{'Tags'|@translate}</h5>
